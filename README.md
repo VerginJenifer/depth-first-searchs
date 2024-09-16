@@ -61,7 +61,7 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
 <h2>PROGRAM: </h2>
 </hr>
 
-
+```
 from collections import deque
 from collections import defaultdict
 
@@ -95,7 +95,7 @@ visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
 
-
+```
 
 <hr>
 <h3>Sample Input</h3>
